@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  //Define variables
+  
+  //Ask user to enter data 
+  
+  //Store data
+  
+  //Send data to functions to perform equations
+  
+  //Output data
+
+  //Program was excecuted succesfully
+  return 0;
+}

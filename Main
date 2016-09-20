@@ -4,14 +4,25 @@ using namespace std;
 int main()
 {
   //Define variables
+  char repeat;
   
+  do{
   //Ask user to enter data 
+  cout << "Please enter a polynomial" << endl;
   
   //Store data
+  cin >> readtolist();
   
-  //Send data to functions to perform equations
+  //Ask if the user wants to repeat
+  cout << "Do you want to enter another polynomial?  Y/N"  << endl;
+  cin >> repeat;
+  } while (repeat != 'N' || repeat != 'n')
   
-  //Output data
+  //Functions
+  //Add polynomials
+  
+ //Output data
+ cout << "The new polynomial is " << //New polynomial << endl;
 
   //Program was excecuted succesfully
   return 0;

@@ -5,13 +5,14 @@ int main()
 {
   //Define variables
   char repeat;
+  string polynomial;
   
   do{
   //Ask user to enter data 
   cout << "Please enter a polynomial" << endl;
   
   //Store data
-  cin >> readtolist();
+  cin >> polynomial;
   
   //Ask if the user wants to repeat
   cout << "Do you want to enter another polynomial?  Y/N"  << endl;
